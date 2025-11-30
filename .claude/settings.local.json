@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "mcpServers": {
+    "schwab": {
+      "command": "C:\\Users\\Josh\\code\\schwab-mcp-server\\venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "schwab_mcp.server"
+      ],
+      "cwd": "C:\\Users\\Josh\\code\\schwab-mcp-server",
+      "env": {
+        "SCHWAB_CLIENT_ID": "npcUbrvmFA1x3c8KdahWTIvMv1VrWTkF",
+        "SCHWAB_CLIENT_SECRET": "nF8DJn5sOpHrzGme",
+        "SCHWAB_CALLBACK_URL": "https://127.0.0.1",
+        "SCHWAB_TOKEN_PATH": "C:\\Users\\Josh\\.schwab-mcp\\token.json",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}

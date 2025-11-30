@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "schwab": {
+      "command": "python",
+      "args": ["-m", "schwab_mcp.server"],
+      "cwd": "/path/to/schwab-mcp-server",
+      "env": {
+        "SCHWAB_CLIENT_ID": "your_client_id_here",
+        "SCHWAB_CLIENT_SECRET": "your_client_secret_here",
+        "SCHWAB_CALLBACK_URL": "https://127.0.0.1:8182/callback",
+        "SCHWAB_TOKEN_PATH": "/Users/yourname/.schwab-mcp/token.json",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
